@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna | Web Developer Portfolio</title>
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #7b4397, #dc2430);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+      opacity: 0.9;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    nav {
+      background: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 12px;
+    }
+
+    nav a {
+      color: #f5f5f5;
+      text-decoration: none;
+      margin: 10px 18px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #dc2430;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.8em;
+      border-bottom: 2px solid #dc2430;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .about, .skills, .projects, .contact {
+      background: #1b1b1b;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+      margin-top: 30px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .skill {
+      background: #242424;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+
+    .projects .placeholder {
+      text-align: center;
+      color: #aaa;
+      font-style: italic;
+    }
+
+    .contact-info p {
+      text-align: center;
+    }
+
+    .social-links {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      color: #f5f5f5;
+      margin: 0 15px;
+      font-size: 1.8em;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #dc2430;
+    }
+
+    footer {
+      text-align: center;
+      background: #1a1a1a;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      margin-top: 60px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Luna</h1>
+    <p>Self-taught web developer passionate about coding, design, and building creative digital experiences.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a 14-year-old developer learning to design and build beautiful, responsive websites. I started exploring code out of curiosity and quickly fell in love with how logic and creativity come together in web development.
+    </p>
+    <p>
+      I’m currently learning HTML, CSS, and JavaScript — using only my phone. My goal is to become an independent developer who creates projects that help and inspire others.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript (Learning)</div>
+      <div class="skill">Problem Solving</div>
+      <div class="skill">UI Design (Beginner)</div>
+      <div class="skill">Creativity</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <p class="placeholder">Currently working on my first web projects. More coming soon.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to reach out or connect with me, feel free to send an email or find me on social media below.</p>
+  
+    <div class="contact-info">
+      <p>Email: <a href="mailto:anamika.ngk@gmail.com">anamika.ngk@gmail.com</a></p>
+    </div>
+
+    <div class="social-links">
+      <a href="https://github.com/luna-996" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/debadrita-das-2454ab387?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://instagram.com/lunanight.ingale" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Luna | Portfolio Website</p>
+  </footer>
+</body>
+</html>
